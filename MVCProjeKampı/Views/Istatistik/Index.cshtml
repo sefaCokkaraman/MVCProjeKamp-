@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+<div class="info-box">
+    <span class="info-box-icon bg-warning"><i class="far fa-copy"></i></span>
+
+    <div class="info-box-content">
+        <span class="info-box-text">Toplam kategori sayısı</span>
+        <span class="info-box-number">@ViewBag.S1</span>
+    </div>
+    <!-- /.info-box-content -->
+</div>
+
+<div class="info-box">
+    <span class="info-box-icon bg-warning"><i class="far fa-copy"></i></span>
+
+    <div class="info-box-content">
+        <span class="info-box-text">Başlık tablosunda "yazılım" kategorisine ait başlık sayısı</span>
+        <span class="info-box-number">@ViewBag.S2</span>
+    </div>
+    <!-- /.info-box-content -->
+</div>
+
+<div class="info-box">
+    <span class="info-box-icon bg-warning"><i class="far fa-copy"></i></span>
+
+    <div class="info-box-content">
+        <span class="info-box-text">Yazar adında 'a' harfi geçen yazar sayısı</span>
+        <span class="info-box-number">@ViewBag.S3</span>
+    </div>
+    <!-- /.info-box-content -->
+</div>
+
+<div class="info-box">
+    <span class="info-box-icon bg-warning"><i class="far fa-copy"></i></span>
+
+    <div class="info-box-content">
+        <span class="info-box-text">En fazla başlığa sahip kategori adı</span>
+        <span class="info-box-number">@ViewBag.S4</span>
+    </div>
+    <!-- /.info-box-content -->
+</div>
+<div class="info-box">
+    <span class="info-box-icon bg-warning"><i class="far fa-copy"></i></span>
+
+    <div class="info-box-content">
+        <span class="info-box-text">
+            Kategori tablosunda durumu true olan kategoriler ile false olan kategoriler arasındaki sayısal fark
+        </span>
+        <span class="info-box-number">@ViewBag.S5</span>
+    </div>
+    <!-- /.info-box-content -->
+</div>
